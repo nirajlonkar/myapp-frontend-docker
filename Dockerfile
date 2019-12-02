@@ -1,6 +1,6 @@
 FROM httpd
 
-COPY /dist/AngularApp/* /usr/local/apache2/htdocs/
+COPY ./dist/AngularApp/* /usr/local/apache2/htdocs/
 
 EXPOSE 80
 
